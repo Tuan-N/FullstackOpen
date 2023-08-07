@@ -30,7 +30,7 @@ const App = () => {
 
   // Next anecdote
   const handleNext = () => {
-    const next = Math.floor(Math.random()*(length))
+    const next = Math.floor(Math.random()*length)
     setSelected(next)
   }
 
